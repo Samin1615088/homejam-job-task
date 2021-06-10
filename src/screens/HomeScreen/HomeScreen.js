@@ -1,15 +1,14 @@
 import React from 'react';
-import CircularLabel from '../../components/CircularLabel/CircularLabel';
+import ShowSection from '../../components/ShowSection/ShowSection';
 import Header from '../../components/Header/Header';
 import SubLabel from '../../components/SubLabel/SubLabel';
-import ShowCard from './../../components/ShowCard/ShowCard';
 import artist_1 from './../../images/artist_1.png'
 import artist_2 from './../../images/artist_2.png'
 import artist_3 from './../../images/artist_3.png'
 import artist_4 from './../../images/artist_4.png'
 
 const fakeData = {
-    upComingShow: [
+    upComingShows: [
         {
             _id: '1',
             profilePic: artist_1,
@@ -43,21 +42,11 @@ const fakeData = {
 
 
 const HomeScreen = () => {
-    console.log(fakeData.upComingShow[0].profilePic)
     return (
         <div className="bg-primary-ebony_black-hard ">
             <Header />
-            <SubLabel content={"Upcoming Shows"} />
-            <div className="flex flex-wrap justify-around mt-10 md:px-28">
-                {
-                    fakeData.upComingShow.map(
-                        show => <ShowCard key={show._id} showInfo={show} />
-                    )
-                }
-            </div>
-
+            <ShowSection upcomingShows={fakeData.upComingShows}/>
             <SubLabel content={"Reviews"} />
-            <ReviewSection/>
         </div>
     );
 };
