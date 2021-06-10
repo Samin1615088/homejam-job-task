@@ -18,6 +18,10 @@ module.exports = {
         },
         secondary: {
           coffee: "#682F26",
+        },
+        gradient:{
+          blue1: "#301A68",
+          blue2: "#234C97"
         }
       },
       fontFamily: {

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Nunito:wght@400;600&family=Open+Sans&family=Quattrocento:wght@700&family=Rubik&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Nunito:wght@400;600&family=Open+Sans&family=Quattrocento:wght@700&family=Rubik&display=swap");
 
 /* 
 font-family: 'Libre Baskerville', serif;
@@ -13,8 +13,7 @@ font-family: 'Rubik', sans-serif;
 @tailwind components;
 @tailwind utilities;
 
-*{
-
+* {
 }
 
 body {
@@ -27,10 +26,13 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 .card {
-  @apply w-64 h-96 overflow-hidden rounded-md cursor-pointer bg-white  shadow-md;
+  @apply overflow-hidden  cursor-pointer bg-white  shadow-md;
+}
+.card--size {
+  @apply w-64 h-96 rounded-lg;
 }
