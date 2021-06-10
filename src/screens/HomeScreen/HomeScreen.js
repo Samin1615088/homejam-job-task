@@ -1,4 +1,6 @@
 import React from 'react';
+import CircularLabel from '../../components/CircularLabel/CircularLabel';
+import Header from '../../components/Header/Header';
 import ShowCard from './../../components/ShowCard/ShowCard';
 import artist_1 from './../../images/artist_1.png'
 import artist_2 from './../../images/artist_2.png'
@@ -43,12 +45,13 @@ const HomeScreen = () => {
     console.log(fakeData.upComingShow[0].profilePic)
     return (
         <div className="bg-primary-ebony_black-hard">
-            {
+            <CircularLabel/>
+            {/* {
                 fakeData.upComingShow.map(
                     show => <ShowCard key={show._id} showInfo={show} />
                 )
-            }
-            {/* <img src={fakeData.upComingShow[0].profilePic} alt="" /> */}
+            } */}
+
         </div>
     );
 };
