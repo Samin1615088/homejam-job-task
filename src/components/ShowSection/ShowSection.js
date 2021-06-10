@@ -4,7 +4,7 @@ import SubLabel from '../SubLabel/SubLabel';
 
 const ShowSection = (props) => {
     const shows = props.upcomingShows;
-    console.log()
+
     return (
         <section>
             <SubLabel content={"Upcoming Shows"} />

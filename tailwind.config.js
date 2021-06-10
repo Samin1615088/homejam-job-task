@@ -22,6 +22,10 @@ module.exports = {
         gradient:{
           blue1: "#301A68",
           blue2: "#234C97"
+        },
+        gradient2:{
+          color1: "#276C73",
+          color2: "#5293E8"
         }
       },
       fontFamily: {
