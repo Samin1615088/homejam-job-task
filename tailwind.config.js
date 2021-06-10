@@ -16,6 +16,13 @@ module.exports = {
         secondary: {
           coffee: "#682F26",
         }
+      },
+      fontFamily: {
+        libre: ['Libre Baskerville', 'serif'],
+        nunito: ['Nunito', 'sans-serif'],
+        openSans: ['Open Sans', 'sans-serif'],
+        quattrocento: ['Quattrocento', 'serif'],
+        rubik: ['Rubik', 'sans-serif'],
       }
     },
   },
