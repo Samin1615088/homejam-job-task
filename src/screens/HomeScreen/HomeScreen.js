@@ -45,7 +45,7 @@ const HomeScreen = () => {
     console.log(fakeData.upComingShow[0].profilePic)
     return (
         <div className="bg-primary-ebony_black-hard">
-            <CircularLabel/>
+            <Header/>
             {/* {
                 fakeData.upComingShow.map(
                     show => <ShowCard key={show._id} showInfo={show} />

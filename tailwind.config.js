@@ -30,7 +30,11 @@ module.exports = {
         openSans: ['Open Sans', 'sans-serif'],
         quattrocento: ['Quattrocento', 'serif'],
         rubik: ['Rubik', 'sans-serif'],
-      }
+      },
+      backgroundImage: theme => ({
+        'banner': "url('/src/images/bg_banner.png')",
+        // 'footer-texture': "url('/img/footer-texture.png')",
+       })
     },
   },
   variants: {

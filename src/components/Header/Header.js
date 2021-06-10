@@ -1,10 +1,11 @@
 import React from 'react';
+import NavBar from '../NavBar/NavBar';
 
 const Header = () => {
     return (
-        <div>
-            
-        </div>
+        <header className="h-screen bg-no-repeat bg-cover bg-banner">
+            <NavBar />
+        </header>
     );
 };
 
