@@ -15,7 +15,7 @@ const Header = () => {
 
             <div className="left-0 right-0 mt-16 md:mt-0 md:absolute bottom-16">
                 <div className="grid grid-cols-1 gap-4 md:gap-2 md:grid-cols-4 lg:grid-cols-4 justify-items-center ">
-                    <CircularLabel />
+                    <CircularLabel isActive={true}/>
                     <CircularLabel />
                     <CircularLabel />
                     <CircularLabel />

@@ -33,7 +33,6 @@ module.exports = {
       },
       backgroundImage: theme => ({
         'banner': "url('/src/images/bg_banner.png')",
-        // 'footer-texture': "url('/img/footer-texture.png')",
        })
     },
   },
