@@ -31,8 +31,8 @@ code {
 }
 
 .card {
-  @apply overflow-hidden  cursor-pointer bg-white  shadow-md;
+  @apply overflow-hidden bg-white shadow-md cursor-pointer;
 }
 .card--size {
-  @apply w-64 h-96 rounded-lg;
+  @apply w-64 rounded-lg h-96;
 }

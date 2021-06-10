@@ -47,15 +47,17 @@ const HomeScreen = () => {
     return (
         <div className="bg-primary-ebony_black-hard ">
             <Header />
-            <SubLabel />
-            <div className="flex flex-wrap justify-between mt-10 md:px-28">
-            {
-                fakeData.upComingShow.map(
-                    show => <ShowCard key={show._id} showInfo={show} />
-                )
-            }
+            <SubLabel content={"Upcoming Shows"} />
+            <div className="flex flex-wrap justify-around mt-10 md:px-28">
+                {
+                    fakeData.upComingShow.map(
+                        show => <ShowCard key={show._id} showInfo={show} />
+                    )
+                }
             </div>
 
+            <SubLabel content={"Reviews"} />
+            <ReviewSection/>
         </div>
     );
 };

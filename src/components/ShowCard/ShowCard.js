@@ -11,7 +11,7 @@ const ShowCard = (props) => {
     const handleToggle = () => setToggle(!toggle)
 
     return (
-        <div className="relative card--size bg-secondary-coffee bg-gradient-to-r from-gradient-blue1 to-gradient-blue2" onClick={handleToggle}>
+        <div className="relative my-4 sm:my-8 card--size bg-secondary-coffee bg-gradient-to-r from-gradient-blue1 to-gradient-blue2" onClick={handleToggle}>
             <div className="absolute card card--size top-2 right-2">
                 <img className="object-cover h-56 " src={profilePic} alt="" />
                 <div className="relative h-full pl-4 bg-primary-ebony_black-light pt-14">
