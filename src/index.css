@@ -30,3 +30,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card {
+  @apply w-64 h-96 overflow-hidden rounded-md cursor-pointer bg-white  shadow-md;
+}

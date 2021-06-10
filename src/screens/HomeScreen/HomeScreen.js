@@ -1,9 +1,10 @@
 import React from 'react';
+import ShowCard from './../../components/ShowCard/ShowCard';
 
 const HomeScreen = () => {
     return (
-        <div>
-            <h2 className="font-rubik">Home Screens</h2>
+        <div className="bg-primary-ebony_black-hard">
+            <ShowCard/>
         </div>
     );
 };

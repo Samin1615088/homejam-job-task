@@ -11,7 +11,10 @@ module.exports = {
             light: "#E5C558",
             hard: "#E5AF56"
           },
-          ebony_black: "#0A0B1A",
+          ebony_black: {
+            light: "#111229",
+            hard: "#0A0B1A"
+          },
         },
         secondary: {
           coffee: "#682F26",
