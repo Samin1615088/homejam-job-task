@@ -5,7 +5,7 @@ import HomeScreen from './screens/HomeScreen/HomeScreen';
 function App() {
   return (
     <div>
-      <HomeScreen />
+      <HomeScreen className="bg-primary-ebony_black" />
     </div>
   );
 }
