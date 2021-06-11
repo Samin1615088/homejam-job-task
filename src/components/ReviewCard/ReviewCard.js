@@ -1,6 +1,5 @@
 import React from 'react';
-import dummyProfilePic from './../../images/profile_1.svg';
-import dummyFlag from './../../images/icons/icon_it_flag.svg';
+
 
 const ReviewCard = (props) => {
     const {review} = props;
@@ -14,7 +13,7 @@ const ReviewCard = (props) => {
                             <h3 className="text-base text-white font-700 font-quattrocento">{review.name}</h3>
                             <div>
                                 <img src={review.flag} alt="" className="inline-block" />
-                                <h4 className="inline-block pl-2 text-xs text-white uppercase text-primary-yellow-light font-rubik font-400">{props.country}</h4>
+                                <h4 className="inline-block pl-2 text-xs text-white uppercase text-primary-yellow-light font-rubik font-400">{review.country}</h4>
                             </div>
                         </div>
                     </div>

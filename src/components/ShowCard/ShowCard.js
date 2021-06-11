@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import dummyPic from './../../images/artist_1.png'
 import ticket from './../../images/icons/icon_ticket.svg'
 import ticketFilled from './../../images/icons/icon_ticket_filled.svg'
 import rightArrowFilled from './../../images/icons/icon_right_arrow_filled.svg'
